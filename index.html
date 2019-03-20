@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--  CSS Link -->   
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>owl-carousel</title>
+  </head>
+  <body>
+    <div class="owl-carousel owl-theme custom">
+      <div class="box"> Your Content </div>
+      <div class="box"> Your Content </div>
+      <div class="box"> Your Content </div>
+      <div class="box"> Your Content </div>
+      <div class="box"> Your Content </div>
+      <div class="box"> Your Content </div>
+      <div class="box"> Your Content </div>
+    </div>    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.js"></script>   
+    <script src="js/owl.carousel.min.js"></script><
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function(){
+        var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+      });
+    </script>
+  </body>
+</html>
